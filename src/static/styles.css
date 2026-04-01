@@ -74,6 +74,60 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* Participants list styling */
+.activity-card .participants {
+  margin-top: 12px;
+}
+
+.activity-card .participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.participant-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #eee;
+}
+
+.participant-item.empty {
+  color: #999;
+  font-style: italic;
+  border-bottom: none;
+  padding: 0;
+}
+
+.participant-name {
+  flex: 1 1 auto;
+  color: #555;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.participant-remove:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
